@@ -4,7 +4,8 @@
   "description": "picture explorer app",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "npm index.js"
   },
   "repository": {
     "type": "git",
