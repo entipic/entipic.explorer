@@ -1,9 +1,9 @@
 {
   "name": "entipic.explorer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "picture explorer app",
   "scripts": {
-    "test": "mocha -t 4000",
+    "test": "mocha -t 5000",
     "start": "node index.js"
   },
   "repository": {
