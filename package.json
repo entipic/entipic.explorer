@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "picture explorer app",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha -t 4000",
     "start": "node index.js"
   },
   "repository": {
@@ -28,8 +28,13 @@
     "qs": "^3.1.0",
     "entipic.core": "^0.0.1",
     "entipic.data": "^0.0.2",
-    "entipic.entity": "^0.0.1",
+    "entipic.entity": "^0.0.3",
     "entipic.images": "^0.0.1",
     "entipic.text": "^0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.2.5"
   }
 }
