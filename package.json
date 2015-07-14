@@ -30,7 +30,7 @@
     "entipic.data": "^0.0.4",
     "entipic.entity": "^0.0.3",
     "entipic.images": "^0.0.1",
-    "entipic.text": "^0.0.1"
+    "entipic.text": "^0.0.2"
   },
   "devDependencies": {
     "chai": "^3.0.0",
