@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "description": "picture explorer app",
   "scripts": {
-    "test": "mocha -t 5000",
+    "test": "eslint . & mocha -t 5000",
+    "lint": "eslint .",
     "start": "node index.js"
   },
   "repository": {
