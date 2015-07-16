@@ -8,7 +8,7 @@
 #### [Explorer](lib/explorer.js) - foreach *unknown name*:
   1. Find *item*'s names:
     #### [NameExplorer](lib/name_explorer.js) - for a given unknown name:
-    1. Find name populatiry - get from google search results;
+    1. Find name popularity - get from google search results;
     2. Find all posible name's variants:
       1. Correct spelling name - detect in google search;
       2. Name version: *Putin Vladimir* can be *Vladimir Putin*;
@@ -22,8 +22,10 @@
       3. Find english version of Wikipedia article;
     2. Filter entities;
     3. Create unique names for each entity;
+
   3. If is an EXISTING *topic*:
     1. DB: Save new unique names to existing topic;
+
   4. If is a NEW *topic*:
     #### [TopicManager](lib/topic_manager.js)
     1. Build topic - create a DB model object;
@@ -33,4 +35,4 @@
     3. DB: Save topic pictures;
     4. DB: Save topic;
 
-  5. Remove processed *unknown name*.
+  5. DB: Remove processed *unknown name*.
