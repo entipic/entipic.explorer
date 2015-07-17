@@ -1,0 +1,7 @@
+{
+  "script": "index.js",
+  "name": "entipic-explorer",
+  "max_memory_restart": "300M",
+  "cron": "0 0,6,12,18 * * *",
+  "autorestart": false
+}

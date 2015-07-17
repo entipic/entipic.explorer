@@ -5,3 +5,5 @@ git pull
 #rm -f -r node_modules/
 #npm install new modules
 npm install
+#restart all processes
+pm2 restart entipic-explorer
