@@ -1,7 +1,9 @@
 {
   "script": "index.js",
   "name": "entipic-explorer",
-  "max_memory_restart": "300M",
+  "max_memory_restart": "400M",
   "cron": "0 0,6,12,18 * * *",
-  "autorestart": false
+  "autorestart": false,
+  "instances": 1,
+  "exec_mode": "cluster_mode"
 }
