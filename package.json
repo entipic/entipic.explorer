@@ -32,8 +32,8 @@
     "qs": "^3.1.0",
     "entipic.core": "^0.0.2",
     "entipic.data": "^0.0.5",
-    "entipic.entity": "^0.0.3",
-    "entipic.images": "^0.0.3",
+    "entipic.entity": "^0.0.5",
+    "entipic.images": "^0.0.4",
     "entipic.text": "^0.0.3"
   },
   "devDependencies": {
