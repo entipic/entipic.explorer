@@ -1,6 +1,6 @@
 {
   "name": "entipic.explorer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "picture explorer app",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -t 5000",
