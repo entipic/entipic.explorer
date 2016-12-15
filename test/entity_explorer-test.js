@@ -1,18 +1,14 @@
 'use strict';
 
-var chai = require('chai');
-var chaiAsPromised = require('chai-as-promised');
-var assert = chai.assert;
-var explorer = require('../lib/entity_explorer');
-
-chai.use(chaiAsPromised);
+const assert = require('assert');
+const explorer = require('../lib/entity_explorer');
 
 describe('Entity explorer', function() {
 	it('#.explore() - rejected', function() {
-		assert.isRejected(explorer.explore());
+		return explorer.explore().then(assert.fail, assert.ok);
 	});
 	it('#.explore([]) - rejected', function() {
-		assert.isFulfilled(explorer.explore([]));
+		return explorer.explore([]).then(assert.fail, assert.ok);
 	});
 	it('#.explore() - one name', function() {
 		return explorer.explore([{
@@ -20,6 +16,5 @@ describe('Entity explorer', function() {
 				name: 'enichioi cantemir',
 				type: 'original'
 			}]);
-		//assert.isFulfilled(explorer.explore([{lang: 'ro', name: 'enichioi cantemir'}]));
 	});
 });
